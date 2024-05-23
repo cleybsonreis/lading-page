@@ -15,25 +15,8 @@
 'https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'
 );
 
-main{
-    background-color: whie;
-}
-
 header{
-    font-family: "Raleway", sans-serif;
-    text-align: end;
+    display: flex;
+    justify-content: space-between;
 }
-header.logo{
-    width: 130px;
-    text-align: start;
-}
-nav{
-   display: inline-block;   
-}
-nav > a {
-    text-decoration: none;
-    color: var(--cor7);
-    font-size: 17px;
-    font-weight: bold;
-    background-color: black;
-}
+.link-menu{}
