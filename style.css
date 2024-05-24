@@ -40,3 +40,41 @@ nav a{
 nav a:hover{
     background-color:rgba(220, 220, 228, 0.26);
 }
+section > h1 {
+width: 600px;
+margin-top: 10%;
+font-weight: bolder;
+color: var(--cor1);
+font-family: "Raleway" ,sans-serif;
+font-size: 2em;
+line-height: 1.5em;
+}
+section > p {
+    width: 520px;
+    color: var(--cor2);
+    font-weight: bold;
+    margin-top: 10px;
+}
+input{  
+    margin-top: 20px;
+    padding: 13px 10px 10px 10px;
+    border: 1px solid var(--cor2);
+    outline: none;
+    border-radius: 4px;   
+    width: 270px;  
+}
+#link-texto{
+    padding: 11px;
+    margin-left: 10px;
+    background-color: rgb(3, 3, 255);
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    width: 175px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+    opacity: 0.6;
+}
