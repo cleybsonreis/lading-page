@@ -18,23 +18,24 @@
 
 main{
     font-family: "Raleway", sans-serif;
-    background-color: var(--cor5);
-    margin-top: 10px;
-
+    
+    border-radius: 5px;
+    max-width:990px;
+    margin: auto;
 }
 header{
     display: flex;
-    
+    justify-content: space-between;
+    margin-top: 15px;
 }
-.menu-link{
-    background-color: black;
-    
+.logo{
+    width: 125px;
 }
 nav a{
     text-decoration: none;
-    font-size: 17px;
-    background-color: var(--cor5);
+    font-size: 18px;
     font-weight: bold;
+    padding: 12px;
 }
 nav a:hover{
     background-color:rgba(220, 220, 228, 0.26);
