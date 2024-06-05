@@ -32,7 +32,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    margin: 20px 40px ;
+    margin: 20px 20px ;
     
 }
 .logo{
@@ -42,7 +42,7 @@ header{
 nav, a{
     color: var(--cor2);
     text-decoration: none;
-    font-size: 1em;
+    font-size: 0.9em;
     font-family: "Raleway", sans-serif;
     text-shadow: 1px 0px var(--cor2);
     margin-right: 15px;
@@ -186,17 +186,36 @@ float: right;
     color: white;
     font-size: 1.5em;
     margin-bottom: 20px;
+  
 }
 .feet-texto{
     font-size: 1em;
     color: white;
-    max-width: 43%;
+    width: 400px;
+    
+}
+.feet-tt{
+    
 }
 .feet-input-link{
-    display: flex;
-    display: inline-block;
+
+    margin-left: 200px;
+}
+.feet-input{
+    margin-top: 50px;
+    width: 190%;
 }
 .feet-link{
-    color: rgb(255, 253, 253);
+    margin-top: 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(0, 0, 255);
+    opacity: 0.6;
+    font-family: "Raleway", sans-serif;
+    padding: 9px 50px 5px 50px;
+    border-radius: 2px;
+    font-weight: bold;
+    box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.199);
 }
 
