@@ -38,7 +38,7 @@ header{
     width: 100%;
    
 }
-nav, a{
+#link-head{
     color: var(--cor2);
     text-decoration: none;
     font-size: 0.9em;
@@ -196,14 +196,18 @@ footer{
     
     
 }
-.footer-link{
-    background-color: lightcoral;
-    columns: 2;
-    margin-left: 10px;
+#li{
     text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
 }
-.fl{
-    text-decoration: none;
+.footer-link{
+    columns: 2;
+    margin-left: 15vw;
+    width: 200px;
+    font-size: 1.1em;
+    color: white;
+    margin-right: 50px;
 }
 .footer-cl{
     display: flex;
