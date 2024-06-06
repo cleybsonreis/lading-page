@@ -26,7 +26,7 @@
 
 body{
    background-color: rgb(255, 255, 255);
- padding-bottom: 1000px;
+    padding-bottom: 1000px;
 }
 header{
     display: flex;
@@ -134,9 +134,13 @@ float: right;
 }
 .link-como-fuciona{
     color: #4d9a8c;
-    border-bottom: 2px solid #4d9a8c ;
-    padding: 3px;
-
+    border-bottom: 1px solid #4d9a8c ;
+    padding: 2px;
+    transition: 0.3s;
+}
+.link-como-fuciona:hover{
+    padding: 10px;
+    border: 1px solid #4d9a8c;
 }
 .perfil{
     background-color: white;
@@ -174,34 +178,24 @@ float: right;
 #aspas{
     font-size: 2.5em;
 }
-.feet{
-    background-color: var(--cor2);
-    font-family: "Raleway", sans-serif;
-    padding: 50px 40px;
-    
+footer{
+    background-color: var(--cor1);
+  
 }
-.feet-titulo{
+.logo-footer{
     color: white;
-    font-size: 1.5em;
-    margin-bottom: 20px;
+
 }
-.feet-texto{
+.contato{
+    color: white;
     font-size: 1em;
-    color: white;
-    width: 35%; 
+    font-family: "Raleway", sans-serif;
     
 }
-#feet-input{
-    width: 350px;
+.footer-link{
+    background-color: lightcoral;
+    columns: 2;
 }
-.feet-il{
+.footer-cl{
     display: flex;
-   
-}
-.feet > a{
-    color: rgb(247, 4, 4);
-    display: flex;
-}
-.feet-li{
-    display: inline-block;
 }
