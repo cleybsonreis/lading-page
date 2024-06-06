@@ -26,9 +26,8 @@
 
 body{
    background-color: rgb(255, 255, 255);
-  
+ padding-bottom: 1000px;
 }
-
 header{
     display: flex;
     justify-content: space-between;
@@ -179,43 +178,30 @@ float: right;
     background-color: var(--cor2);
     font-family: "Raleway", sans-serif;
     padding: 50px 40px;
-    display: flex;
+    
 }
-
 .feet-titulo{
     color: white;
     font-size: 1.5em;
     margin-bottom: 20px;
-  
 }
 .feet-texto{
     font-size: 1em;
     color: white;
-    width: 400px;
+    width: 35%; 
     
 }
-.feet-tt{
-    
+#feet-input{
+    width: 350px;
 }
-.feet-input-link{
-
-    margin-left: 200px;
+.feet-il{
+    display: flex;
+   
 }
-.feet-input{
-    margin-top: 50px;
-    width: 190%;
+.feet > a{
+    color: rgb(247, 4, 4);
+    display: flex;
 }
-.feet-link{
-    margin-top: 20px;
-    display: block;
-    color: white;
-    text-decoration: none;
-    background-color: rgb(0, 0, 255);
-    opacity: 0.6;
-    font-family: "Raleway", sans-serif;
-    padding: 9px 50px 5px 50px;
-    border-radius: 2px;
-    font-weight: bold;
-    box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.199);
+.feet-li{
+    display: inline-block;
 }
-
