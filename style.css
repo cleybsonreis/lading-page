@@ -27,7 +27,7 @@
 
 body{
    background-color: rgb(255, 255, 255);
-    padding-bottom: 1000px;
+    
 }
 header{
     display: flex;
@@ -183,4 +183,43 @@ footer{
     background-color: var(--cor1);
     color: white;
     width: 100%;
+    padding: 20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#geral{
+    display: flex;
+    display: inline-block;
+    padding-right: 50px;
+    padding-top: 10px;
+    font-size: 1.2em;
+}
+#blocka, #blockb{
+    margin-bottom: 35px;
+}
+.contato{
+    width: 60vh;
+}
+.link-a{
+    width: 40vh;
+    vertical-align: middle;
+}
+#link-b{
+    list-style: none;
+    vertical-align: top;
+}
+#link-b > li> a{
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+    padding-bottom: 5px;
+}
+.logo-contato{
+    background-color: white;
+    border-radius: 2px solid black;
+    border-radius: 50%;
+    width: 20%;
+    padding: 5px;
+    margin: 5px;
+    vertical-align: bottom;
+    cursor: pointer;
 }
